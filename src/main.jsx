@@ -8,9 +8,9 @@ if (import.meta.env.DEV) {
 }
 
 import "./index.css";
-import App from "./App.tsx";
+import App from "./App.jsx";
 
-createRoot(document.getElementById("root")!).render(
+createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <StrictMode>
       <App />

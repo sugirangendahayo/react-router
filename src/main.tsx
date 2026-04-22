@@ -1,6 +1,11 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
+import { makeServer } from "./mirage/server.js";
+
+if (import.meta.env.DEV) {
+  makeServer();
+}
 
 import "./index.css";
 import App from "./App.tsx";

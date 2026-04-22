@@ -10,10 +10,10 @@ const Navbar = () => {
       </Link>
       <nav>
         <ul className="flex  items-center gap-4">
-          <li>
+          <li className="font-semibold">
             <Link to="/">Home</Link>
           </li>
-          <li>
+          <li className="font-semibold">
             <Link to="/vans">Vans</Link>
           </li>
         </ul>

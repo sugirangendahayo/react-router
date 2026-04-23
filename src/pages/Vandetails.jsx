@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 
 const Vandetails =()=>{
-    const {id} = useParams();
+    const {id} = useParams(); 
+    const location = useNavigate();
+    console.log(location);
     console.log(id)
     const [van, setVan] = useState(null);
     useEffect(() => {

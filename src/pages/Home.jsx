@@ -13,7 +13,7 @@ const Home = () => {
 
         <div className="relative z-10 flex flex-col gap-8 items-center justify-center h-full text-white p-4  text-center">
           <h1 className="text-4xl md:text-6xl font-bold">You got the travel plans, we got the travel vans</h1>
-          <Link className="p-2 bg-amber-600 text-white font-bold w-[90%] ">Find you van</Link>
+          <Link className="p-2 bg-amber-600 text-white font-bold w-[90%] " to="/vans">Find you van</Link>
         </div>
       </div>
     </>
